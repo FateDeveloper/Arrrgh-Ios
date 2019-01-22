@@ -11,15 +11,12 @@ import UIKit
 
 class CJhonNewgate: CPlayer {
 
-    override init(szName:String, eRole:E_ROLE_PLAYERS, oView:PlayerView){
-        super.init(szName: szName, eRole: eRole, oView: oView)
+    override init(szPeerID:String, eRole:E_ROLE_PLAYERS){
+        super.init(szPeerID: szPeerID, eRole: eRole)
         
         _eCharacter = E_PLAYABLE_CHARACTERS.JOHN_NEWGATE
         _szNameCard = "Jhon Newgate"
         _szEffectCard = "He may discard 2 cards to regain one life point"
-        _iMaxLife = 4;
-        initLife(iLife: _iMaxLife!)
-        _oView!.initPlayerImage(oImage: UIImage(named: _eCharacter!.getString()))
         
     }
 

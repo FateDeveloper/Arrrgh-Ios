@@ -11,15 +11,12 @@ import UIKit
 
 class CEricCobham: CPlayer {
     
-    override init(szName:String, eRole:E_ROLE_PLAYERS, oView:PlayerView){
-        super.init(szName: szName, eRole: eRole, oView: oView)
+    override init(szPeerID:String, eRole:E_ROLE_PLAYERS){
+        super.init(szPeerID: szPeerID, eRole: eRole)
         
         _eCharacter = E_PLAYABLE_CHARACTERS.ERIC_COBHAM
         _szNameCard = "Eric Cobham"
         _szEffectCard = "Each time he is hit by a player, he draws a card from the hand of that player"
-        _iMaxLife = 3;
-        initLife(iLife: _iMaxLife!)
-        _oView!.initPlayerImage(oImage: UIImage(named: _eCharacter!.getString()))
         
     }
     

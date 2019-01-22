@@ -11,15 +11,12 @@ import UIKit
 
 class CMariaLindsey: CPlayer {
     
-    override init(szName:String, eRole:E_ROLE_PLAYERS, oView:PlayerView){
-        super.init(szName: szName, eRole: eRole, oView: oView)
+    override init(szPeerID:String, eRole:E_ROLE_PLAYERS){
+        super.init(szPeerID: szPeerID, eRole: eRole)
         
         _eCharacter = E_PLAYABLE_CHARACTERS.MARIA_LINDSEY
         _szNameCard = "Maria Lindsey"
         _szEffectCard = "He shows the second card he draws. On Heart or Diamonds, he draws one more card"
-        _iMaxLife = 4;
-        initLife(iLife: _iMaxLife!)
-        _oView!.initPlayerImage(oImage: UIImage(named: _eCharacter!.getString()))
     }
     
 //    He shows the second card he draws. On Heart or Diamonds, he draws one more card

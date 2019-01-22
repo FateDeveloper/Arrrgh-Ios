@@ -11,15 +11,12 @@ import UIKit
 
 class CChingShih: CPlayer {
     
-    override init(szName:String, eRole:E_ROLE_PLAYERS, oView:PlayerView){
-        super.init(szName: szName, eRole: eRole, oView: oView)
+    override init(szPeerID:String, eRole:E_ROLE_PLAYERS){
+        super.init(szPeerID: szPeerID, eRole: eRole)
         
         _eCharacter = E_PLAYABLE_CHARACTERS.CHING_SHIH
         _szNameCard = "Ching Shih"
         _szEffectCard = "She sees all players at a distance decreased by 1"
-        _iMaxLife = 4;
-        initLife(iLife: _iMaxLife!)
-        _oView!.initPlayerImage(oImage: UIImage(named: _eCharacter!.getString()))
     }
     
 //    She sees all players at a distance decreased by 1

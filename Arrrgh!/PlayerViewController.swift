@@ -16,7 +16,7 @@ class PlayerViewController: UIViewController, UICollectionViewDelegate,UICollect
     @IBOutlet var lifes: [UIImageView]!
      var indice = IndexPath.init(index: -1)
     
-    var imageArroy = [UIImage(named:"Anne"),UIImage(named:"Edward"),UIImage(named:"Erik"),UIImage(named:"Francis"),UIImage(named:"Gracey"),UIImage(named:"Jeanne"),UIImage(named:"Khayr"),UIImage(named:"Robert"),UIImage(named:"Sayyid")]
+    var _aHandImagesName:[UIImage] = [UIImage(named: "BLANK")!]
     
     override func viewDidLoad() {
     }
@@ -76,7 +76,7 @@ class PlayerViewController: UIViewController, UICollectionViewDelegate,UICollect
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == self.collectionViewCard {
-             return imageArroy.count
+             return _aHandImagesName.count
         }
         return 0
     }
@@ -85,7 +85,7 @@ class PlayerViewController: UIViewController, UICollectionViewDelegate,UICollect
         if collectionView == self.collectionViewCard {
         let cellB = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageCollectionViewCell", for: indexPath) as! ImageCollectionViewCell
         
-        cellB.imgImage.image = imageArroy[indexPath.row]
+        cellB.imgImage.image = _aHandImagesName[indexPath.row]
         return cellB
         }
         return UICollectionViewCell()

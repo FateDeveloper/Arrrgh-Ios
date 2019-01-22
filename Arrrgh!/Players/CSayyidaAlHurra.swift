@@ -11,15 +11,12 @@ import UIKit
 
 class CSayyidaAlHurra: CPlayer {
     
-    override init(szName:String, eRole:E_ROLE_PLAYERS, oView:PlayerView){
-        super.init(szName: szName, eRole: eRole, oView: oView)
+    override init(szPeerID:String, eRole:E_ROLE_PLAYERS){
+        super.init(szPeerID: szPeerID, eRole: eRole)
         
         _eCharacter = E_PLAYABLE_CHARACTERS.SAYYIDA_AL_HURRA
         _szNameCard = "Sayyida Al Hurra"
         _szEffectCard = "All players see him at a distance increased by 1"
-        _iMaxLife = 3;
-        initLife(iLife: _iMaxLife!)
-        _oView!.initPlayerImage(oImage: UIImage(named: _eCharacter!.getString()))
 
     }
     

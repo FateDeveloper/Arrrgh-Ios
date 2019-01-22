@@ -53,7 +53,6 @@
 		DBE6A37F21F715FC00910D9E /* CEdwardTeach.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6A36E21F715FB00910D9E /* CEdwardTeach.swift */; };
 		DBE6A38021F715FC00910D9E /* CJeanneDeBelleville.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6A36F21F715FB00910D9E /* CJeanneDeBelleville.swift */; };
 		DBE6A38121F715FC00910D9E /* CMariaLindsey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6A37021F715FB00910D9E /* CMariaLindsey.swift */; };
-		DBE6A38221F715FC00910D9E /* CHarbour.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6A37121F715FB00910D9E /* CHarbour.swift */; };
 		DBE6A38321F715FC00910D9E /* CMaryRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6A37221F715FB00910D9E /* CMaryRead.swift */; };
 		DBE6A38421F715FC00910D9E /* CZhengYi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6A37321F715FB00910D9E /* CZhengYi.swift */; };
 		DBE6A38521F715FC00910D9E /* CChingShih.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6A37421F715FC00910D9E /* CChingShih.swift */; };
@@ -109,7 +108,6 @@
 		DBE6A36E21F715FB00910D9E /* CEdwardTeach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEdwardTeach.swift; sourceTree = "<group>"; };
 		DBE6A36F21F715FB00910D9E /* CJeanneDeBelleville.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJeanneDeBelleville.swift; sourceTree = "<group>"; };
 		DBE6A37021F715FB00910D9E /* CMariaLindsey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMariaLindsey.swift; sourceTree = "<group>"; };
-		DBE6A37121F715FB00910D9E /* CHarbour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHarbour.swift; sourceTree = "<group>"; };
 		DBE6A37221F715FB00910D9E /* CMaryRead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMaryRead.swift; sourceTree = "<group>"; };
 		DBE6A37321F715FB00910D9E /* CZhengYi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZhengYi.swift; sourceTree = "<group>"; };
 		DBE6A37421F715FC00910D9E /* CChingShih.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CChingShih.swift; sourceTree = "<group>"; };
@@ -206,7 +204,6 @@
 				DBE6A36C21F715FB00910D9E /* CFrancisDrake.swift */,
 				DBE6A36621F715FA00910D9E /* CGertudeImogeneStubbs.swift */,
 				DBE6A37521F715FC00910D9E /* CGraceOMalley.swift */,
-				DBE6A37121F715FB00910D9E /* CHarbour.swift */,
 				DBE6A36F21F715FB00910D9E /* CJeanneDeBelleville.swift */,
 				DBE6A36921F715FA00910D9E /* CJhonNewgate.swift */,
 				DBE6A37021F715FB00910D9E /* CMariaLindsey.swift */,
@@ -332,7 +329,6 @@
 				DBE6A35421F7134B00910D9E /* CCulverin.swift in Sources */,
 				DBE6A38121F715FC00910D9E /* CMariaLindsey.swift in Sources */,
 				DBE6A34821F7134B00910D9E /* CHarquebus.swift in Sources */,
-				DBE6A38221F715FC00910D9E /* CHarbour.swift in Sources */,
 				DBE6A34F21F7134B00910D9E /* CElDorado.swift in Sources */,
 				DBE6A37621F715FC00910D9E /* CRobertBlake.swift in Sources */,
 				DBE6A34B21F7134B00910D9E /* CRum.swift in Sources */,
